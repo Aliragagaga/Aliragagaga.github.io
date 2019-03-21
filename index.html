@@ -1,107 +1,342 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
-        <link rel="stylesheet" type="text/css" href="index.css">
-        <title>Aliraza</title>
-    </head>
-    <body class="garamond p-3 bg-light-gray">
-        <div class="title jumbotron bg-silver">
-            <h1 class="f1">
-                Aliraza Nagamia
-            </h1>
-            <hr>
-            <h1 class="f3">
-                Software Developer (In Training)
-            </h1>
-        </div>
+<html lang="en">
 
-        <div class="exp">
-            <h1 class="f3 font-weight-bold">Experience</h1>
-            <div class="card-">
-                <div class="workplace card p-3">
-                    <span class="font-weight-bold">Orbis Investments</span>
-                    London, UK <i>
-                    May 2019 - Present </i>
-                </div>
-                <div class="workplace card p-3">
-                    <span class="font-weight-bold"> Q4 Inc. </span>
-                    Toronto, CA
-                    <i>January 2019 - April 2019</i>
-                </div>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Aliraza Nagamia</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/freelancer.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Aliraza Nagamia</a>
+      <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#education">Education</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead bg-primary text-white text-center">
+    <div class="container">
+      <img class="img-fluid mb-5 d-block mx-auto" src="img/gauntlet.png" alt="">
+      <h1 class="text-uppercase mb-0">Aliraza Nagamia</h1>
+      <hr class="star-light">
+      <h2 class="font-weight-light mb-0">Software Developer (In Training)</h2>
+    </div>
+  </header>
+
+  <!-- Portfolio Grid Section -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+      <hr class="star-dark mb-5">
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <i class="fas fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/game.png" alt="">
+          </a>
+          <h4 class="text-center text-uppercase text-secondary mb-0">Do I Win Yet?</h4>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <i class="fas fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/cake.png" alt="">
+          </a>
+          <h4 class="text-center text-uppercase text-secondary mb-0">Restaurant Project</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Exp -->
+  <section class="portfolio" id="experience">
+    <div class="container">
+      <h2 class="text-center text-uppercase text-secondary">Experience</h2>
+      <hr class="star-dark mb-5">
+      <div class="row">
+        <div class="col-lg-0 mx-auto">
+            <div class="card" style="width: 14rem;">
+              <a href="https://www.orbis.com/"><img class="card-img-top" src="img/orbis.png" alt="Card image cap"></a>
+              <div class="card-body">
+                <h5>Orbis Investments</h5>
+                <h6>London, UK</h6>
+                <h6><i>May 2019 - Present</i></h6>
+              </div>
             </div>
         </div>
-
-        <hr>
-
-        <div class="projects">
-            <h1 class="f3 font-weight-bold">Projects</h1>
-
-            <!-- Project One -->
-            <div class="row project">
-                <div class="col-md-3">
-                <a href="https://github.com/Aliragagaga/Do-I-Win-Yet">
-                    <img class="img-fluid rounded mb-3 mb-md-0" src="img/lol.jpg" alt="lol">
-                </a>
-                </div>
-                <div class="col-md-5">
-                <h3>Do I Win Yet?</h3>
-                <p>
-                    Based on the MOBA, League of Legends, this Python app uses a logistic regression machine learning model 
-                    to predict game outcome based on player statistics. Each model is trained on game data of an individual player, resulting a personalized model.
-                </p>
-                <a class="btn btn-primary" href="https://github.com/Aliragagaga/Do-I-Win-Yet">View Project</a>
-                </div>
+        <div class="col-lg-0 mr-auto">
+          <div class="card" style="width: 14rem;">
+              <a href="https://www.q4inc.com/"><img class="card-img-top" src="img/q4.png" alt="Card image cap"></a>
+              <div class="card-body">
+                <h5>Q4 Inc.</h5>
+                <h6>Toronto, Canada</h6>
+                <h6><i>Jan 2019 - April 2019</i></h6>
+              </div>
             </div>
-            <!-- /.row -->
-
-            <hr>
-
-            <!-- Project Two -->
-            <div class="row project">
-                <div class="col-md-3">
-                <a href="https://github.com/Aliragagaga/Restaurant-Project">
-                    <img class="img-fluid rounded mb-3 mb-md-0" src="img/restaurant.jpeg" alt="restaurant">
-                </a>
-                </div>
-                <div class="col-md-5">
-                <h3>Restaurant Project</h3>
-                <p>
-                    A POS Java applet designed to make the daily operations of a restaurant style business 200% more efficient by reducing 50% of communication required 
-                    between employees.
-                </p>
-                <a class="btn btn-primary" href="https://github.com/Aliragagaga/Restaurant-Project">View Project</a>
-                </div>
-            </div>
-
-            <hr>
-
-            <!-- TEMPLATE:
-            <div class="row">
-                <div class="col-md-7">
-                <a href="#">
-                    <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
-                </a>
-                </div>
-                <div class="col-md-5">
-                <h3>Project Two</h3>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, odit velit cumque vero doloremque repellendus distinctio maiores rem expedita a nam vitae modi quidem similique ducimus! Velit, esse totam tempore.</p>
-                <a class="btn btn-primary" href="#">View Project</a>
-                </div>
-            </div>
-            -->
-
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="contact">
-            <a class="btn btn-primary btn-lg" href="ResumeE.pdf">Resume</a>
+  <!-- School -->
+  <section id="education">
+    <div class="container">
+      <h2 class="text-center text-uppercase text-secondary mb-0">Education</h2>
+      <hr class="star-dark mb-5">
+      <div class="card mx-auto" style="width: 30rem;">
+        <img class="card-img-top" src="img/uoft.png" alt="Card image cap">
+        <div class="card-body text-center text-uppercase text-secondary mb-0">
+         <h6>2017 - Present</h6>
         </div>
+      </div>  
+    </div>
+  </section>
 
-        <!--JS-->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    </body>
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Location</h4>
+          <p class="lead mb-0">Toronto, Canada</p>
+        </div>
+        <div class="col-md-4 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Links</h4>
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item">
+              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.facebook.com/AlirazaNagamia">
+                <i class="fab fa-fw fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/aliraza-nagamia-03607a137/">
+                <i class="fab fa-fw fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/Aliragagaga">
+                <i class="fab fa-fw fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <a href="ResumeE.pdf"><button type="button" class="btn btn-primary btn-xl text-uppercase text-center text-white" id="resume">Resume</button></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+  <div class="scroll-to-top d-lg-none position-fixed ">
+    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+  </div>
+
+  <!-- Portfolio Modals -->
+
+  <!-- Portfolio Modal 1 -->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0">Do I Win Yet?</h2>
+            <hr class="star-dark mb-5">
+            <img class="img-fluid mb-5" src="img/portfolio/lol.jpg" alt="">
+            <p class="mb-5">Based on the MOBA, League of Legends, this Python app uses a logistic regression machine learning model 
+                to predict game outcome based on player statistics. Each model is trained on game data of an individual player, resulting a personalized model.</p>
+            <a class="btn btn-primary btn-lg rounded-pill" href="https://github.com/Aliragagaga/Do-I-Win-Yet">
+                <i class="fa fa-close"></i>
+                Github</a>
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+              Close Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 2 -->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0">Restaurant Project</h2>
+            <hr class="star-dark mb-5">
+            <img class="img-fluid mb-5" src="img/portfolio/restaurant.jpeg" alt="">
+            <p class="mb-5">A POS Java applet designed to make the daily operations of a restaurant style business 200% more efficient by reducing 50% of communication required 
+                between employees.</p>
+            <a class="btn btn-primary btn-lg rounded-pill" href="https://github.com/Aliragagaga/Restaurant-Project">
+                <i class="fa fa-close"></i>
+                Github</a>
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+              Close Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 3 -->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+            <hr class="star-dark mb-5">
+            <img class="img-fluid mb-5" src="img/portfolio/circus.png" alt="">
+            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+              Close Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 4 -->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+            <hr class="star-dark mb-5">
+            <img class="img-fluid mb-5" src="img/portfolio/game.png" alt="">
+            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+              Close Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 5 -->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+            <hr class="star-dark mb-5">
+            <img class="img-fluid mb-5" src="img/portfolio/safe.png" alt="">
+            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+              Close Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 6 -->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+            <hr class="star-dark mb-5">
+            <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
+            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+              Close Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+  <!-- Contact Form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/freelancer.min.js"></script>
+
+</body>
 
 </html>
